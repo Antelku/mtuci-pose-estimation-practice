@@ -1,0 +1,187 @@
+{
+  "total_images": 12,
+  "timestamp": "2026-09-04T17:55:07.501999",
+  "benchmarks": {
+    "YOLOv8-Pose": {
+      "fps": 21.79
+    },
+    "MediaPipe": {
+      "fps": 32.65
+    },
+    "HRNet-W48": {
+      "fps": 12.0
+    },
+    "OpenPose": {
+      "fps": 8.0
+    },
+    "RTMPose-L": {
+      "fps": 65.0
+    }
+  },
+  "architectures_compared": 5,
+  "exercise": "squat",
+  "note": "Анализ техники приседаний",
+  "results": [
+    {
+      "image": "images\\приседает 1.jpg",
+      "angles": {
+        "knee_left": 116.05045312557422,
+        "knee_right": 113.02953337307086,
+        "torso": 91.95107381824407
+      },
+      "errors": [
+        "Недостаточная глубина приседа"
+      ],
+      "confidence": 0.858004629611969,
+      "framework": "YOLOv8-Pose"
+    },
+    {
+      "image": "images\\приседает 10.jpg",
+      "angles": {
+        "knee_left": 128.84657981047917,
+        "knee_right": 115.52624716036787,
+        "torso": 134.87884187474575
+      },
+      "errors": [
+        "Недостаточная глубина приседа",
+        "Спина слишком прямая"
+      ],
+      "confidence": 0.9404788017272949,
+      "framework": "YOLOv8-Pose"
+    },
+    {
+      "image": "images\\приседает 11.jpg",
+      "angles": {
+        "knee_left": 105.0806974822093,
+        "knee_right": 124.6741545135492,
+        "torso": 99.0780812251711
+      },
+      "errors": [
+        "Недостаточная глубина приседа",
+        "Колени выходят за носки"
+      ],
+      "confidence": 0.9260665774345398,
+      "framework": "YOLOv8-Pose"
+    },
+    {
+      "image": "images\\приседает 12.jpg",
+      "angles": {
+        "knee_left": 84.97645070706659,
+        "knee_right": 94.84463481595685,
+        "torso": 76.24925768708118
+      },
+      "errors": [
+        "Хорошая глубина!"
+      ],
+      "confidence": 0.864258348941803,
+      "framework": "YOLOv8-Pose"
+    },
+    {
+      "image": "images\\приседает 2.jpg",
+      "angles": {
+        "knee_left": 79.80412427641701,
+        "knee_right": 79.13067988705525,
+        "torso": 76.37048166985126
+      },
+      "errors": [
+        "Хорошая глубина!",
+        "Колени выходят за носки"
+      ],
+      "confidence": 0.9088804125785828,
+      "framework": "YOLOv8-Pose"
+    },
+    {
+      "image": "images\\приседает 3.jpg",
+      "angles": {
+        "knee_left": 93.12829874522691,
+        "knee_right": 99.27233493887623,
+        "torso": 70.63439064417867
+      },
+      "errors": [
+        "Хорошая глубина!"
+      ],
+      "confidence": 0.8408082723617554,
+      "framework": "YOLOv8-Pose"
+    },
+    {
+      "image": "images\\приседает 4.jpg",
+      "angles": {
+        "knee_left": 78.07643291161423,
+        "knee_right": 88.75319016008206,
+        "torso": 74.16954140581367
+      },
+      "errors": [
+        "Хорошая глубина!"
+      ],
+      "confidence": 0.8767361044883728,
+      "framework": "YOLOv8-Pose"
+    },
+    {
+      "image": "images\\приседает 5.jpg",
+      "angles": {
+        "knee_left": 82.91699858481954,
+        "knee_right": 120.43639829126319,
+        "torso": 84.85429968496294
+      },
+      "errors": [
+        "Асимметрия в коленях"
+      ],
+      "confidence": 0.941853940486908,
+      "framework": "YOLOv8-Pose"
+    },
+    {
+      "image": "images\\приседает 6.jpg",
+      "angles": {
+        "knee_left": 87.32760420293299,
+        "knee_right": 89.64033841786022,
+        "torso": 90.17401706061297
+      },
+      "errors": [
+        "Хорошая глубина!",
+        "Колени выходят за носки"
+      ],
+      "confidence": 0.8706952929496765,
+      "framework": "YOLOv8-Pose"
+    },
+    {
+      "image": "images\\приседает 7.jpg",
+      "angles": {
+        "knee_left": 65.5784436151835,
+        "knee_right": 57.99758157113491,
+        "torso": 42.63141633767983
+      },
+      "errors": [
+        "Слишком сильный наклон вперёд"
+      ],
+      "confidence": 0.9044747352600098,
+      "framework": "YOLOv8-Pose"
+    },
+    {
+      "image": "images\\приседает 8.jpg",
+      "angles": {
+        "knee_left": 86.96021241656656,
+        "knee_right": 93.07541314756244,
+        "torso": 79.70194343914187
+      },
+      "errors": [
+        "Хорошая глубина!"
+      ],
+      "confidence": 0.8502119779586792,
+      "framework": "YOLOv8-Pose"
+    },
+    {
+      "image": "images\\приседает 9.jpg",
+      "angles": {
+        "knee_left": 79.46984553982118,
+        "knee_right": 92.42996957066902,
+        "torso": 85.05393667978129
+      },
+      "errors": [
+        "Хорошая глубина!",
+        "Колени выходят за носки"
+      ],
+      "confidence": 0.9141272902488708,
+      "framework": "YOLOv8-Pose"
+    }
+  ]
+}
